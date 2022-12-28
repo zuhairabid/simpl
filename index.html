@@ -13,6 +13,10 @@
                   colors: {
                      clifford: "#da373d",
                      faded_white: "#FAFAFA",
+                     purple: "#9E4792",
+                  },
+                  fontFamily: {
+                     comforta: "Comfortaa,cursive",
                   },
                },
             },
@@ -20,8 +24,8 @@
       </script>
       <title>Document</title>
    </head>
-   <body>
-      <header class="h-[1080px] pt-[44px]">
+   <body class="">
+      <header class="h-[1080px] pt-[44px] font-comforta font-300">
          <nav
             class="flex w-[80%] mx-auto bg-faded_white items-center px-[30px] py-[27px] rounded-lg"
          >
@@ -38,7 +42,7 @@
                   <li>About Us</li>
                </ul></menu
             >
-            <div class="flex space-x-3">
+            <div class="flex space-x-5 items-center">
                <div class="flex">
                   <img
                      src="/assets/images/Great Britain.png"
@@ -48,7 +52,11 @@
                   <p>english</p>
                </div>
                <div><p>Login</p></div>
-               <div><p>Sign up free</p></div>
+               <button
+                  class="bg-purple px-[16px] py-[13px] text-faded_white rounded-lg"
+               >
+                  Sign up free
+               </button>
             </div>
          </nav>
       </header>
