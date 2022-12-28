@@ -18,3 +18,14 @@ header {
 #section-2 {
    background-image: url("/assets/images/section2.png");
 }
+
+#section-3 {
+   background-image: url("/assets/images/section3.png");
+}
+
+#section-3-sub {
+   background-image: url("/assets/images/Ellipse2.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
