@@ -3,6 +3,7 @@
 * {
    padding: 0;
    margin: 0;
+   box-sizing: border-box;
 }
 
 header {
@@ -12,4 +13,8 @@ header {
       #68326c 53.76%,
       #1d0618 100%
    );
+}
+
+#section-2 {
+   background-image: url("/assets/images/section2.png");
 }

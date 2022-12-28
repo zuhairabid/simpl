@@ -23,10 +23,17 @@
          }
       </script>
       <title>Document</title>
+      <style type="text/tailwindcss">
+         @layer utilities {
+            .active {
+               @apply bg-purple text-white;
+            }
+         }
+      </style>
    </head>
    <body class="">
       <header class="h-[830px] pt-[44px] font-comforta font-300">
-         <div class="w-[90%] mx-auto h-full">
+         <div class="w-[90%] mx-auto h-full pb-[60px]">
             <nav
                class="flex bg-faded_white items-center px-[30px] py-[27px] rounded-lg"
             >
@@ -60,9 +67,9 @@
                   </button>
                </div>
             </nav>
-            <div class="flex items-center justify-center h-full">
+            <div class="flex items-center justify-center h-full relative mb-20">
                <div
-                  class="w-[45%] mr-10 flex flex-col place-items-start space-y-10"
+                  class="w-[50%] mr-10 flex flex-col place-items-start space-y-10"
                >
                   <p class="text-3xl text-white">
                      A digital resume for artists
@@ -75,9 +82,46 @@
                      Get Started Now
                   </button>
                </div>
-               <div><img src="/assets/images/Frame 149.png" alt="" /></div>
+               <div class="z-[100]">
+                  <img src="/assets/images/Frame 149.png" alt="" />
+               </div>
+               <div>
+                  <img
+                     src="/assets/images/Ellips.png"
+                     alt=""
+                     class="absolute right-[45%] bottom-[10%] z-[10] w-[250px]"
+                  />
+               </div>
             </div>
          </div>
       </header>
+      <main>
+         <section
+            id="section-2"
+            class="h-[790px] flex flex-col items-center justify-center font-comforta"
+         >
+            <p class="text-3xl mb-3">Media kits for every industry</p>
+            <p>
+               Adjust your media kit for any industry to showcase your stats,
+               followers and media kit
+            </p>
+            <div
+               class="flex space-x-10 [&>div]:border-2 [&>div]:border-purple [&>div]:px-[52px] [&>div]:py-[16px] [&>div]:rounded-[30px] mt-10"
+            >
+               <div>Streamers</div>
+               <div>Podcasters</div>
+               <div class="active">Influencers</div>
+               <div>Artists</div>
+               <div>Athlets</div>
+            </div>
+            <div class="w-[30%] bg-purple text-white p-[59px] rounded-md mt-10">
+               <p>
+                  Simpl digital resume will provide you with a beautiful and
+                  professional way to share your data. This will help you pitch
+                  yourself to brands and negotiate bigger brand deals.
+               </p>
+            </div>
+         </section>
+      </main>
    </body>
 </html>
