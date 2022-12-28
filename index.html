@@ -3,10 +3,54 @@
    <head>
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <link rel="stylesheet" href="/css/main.css" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script>
+         tailwind.config = {
+            theme: {
+               extend: {
+                  colors: {
+                     clifford: "#da373d",
+                     faded_white: "#FAFAFA",
+                  },
+               },
+            },
+         }
+      </script>
       <title>Document</title>
    </head>
    <body>
-      hello world!
+      <header class="h-[1080px] pt-[44px]">
+         <nav
+            class="flex w-[80%] mx-auto bg-faded_white items-center px-[30px] py-[27px] rounded-lg"
+         >
+            <div class="flex mr-10">
+               <img src="/assets//images/Simpl_icone_ color 1.png" alt="" />
+               <img src="/assets//images/Simpl_ logo_ color 1.png" alt="" />
+            </div>
+            <menu class="flex-grow"
+               ><ul class="flex space-x-6">
+                  <li>Pricing</li>
+                  <li>Link In-Bio</li>
+                  <li>Media Kit</li>
+                  <li>Blog</li>
+                  <li>About Us</li>
+               </ul></menu
+            >
+            <div class="flex space-x-3">
+               <div class="flex">
+                  <img
+                     src="/assets/images/Great Britain.png"
+                     alt=""
+                     class="h-5"
+                  />
+                  <p>english</p>
+               </div>
+               <div><p>Login</p></div>
+               <div><p>Sign up free</p></div>
+            </div>
+         </nav>
+      </header>
    </body>
 </html>

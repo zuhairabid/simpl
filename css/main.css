@@ -1,0 +1,13 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+
+header {
+   background: linear-gradient(
+      111.98deg,
+      #db71ce 0%,
+      #68326c 53.76%,
+      #1d0618 100%
+   );
+}
