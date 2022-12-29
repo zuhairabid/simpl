@@ -226,6 +226,158 @@
                </div>
             </div>
          </section>
+         <section
+            id="section-5"
+            class="h-[790px] flex items-center justify-center font-comforta"
+         >
+            <div class="m-20">
+               <img src="/assets/images/Frame 166.png" alt="" />
+            </div>
+            <div class="w-[50%]">
+               <p class="font-bold text-3xl">Pitch brand with confidence</p>
+               <p class="mb-6">Accurate data</p>
+               <div
+                  class="[&>p]:flex [&>p>span]:mr-3 items-center space-y-5 font-bold"
+               >
+                  <p>
+                     <span
+                        ><img src="/assets/images/Group 119.png" alt=""
+                     /></span>
+                     Always accurate data, verified by media kits
+                  </p>
+                  <p>
+                     <span
+                        ><img src="/assets/images/Group 119.png" alt=""
+                     /></span>
+                     Updated automatically
+                  </p>
+                  <p>
+                     <span
+                        ><img src="/assets/images/Group 119.png" alt=""
+                     /></span>
+                     No more Screenshots
+                  </p>
+               </div>
+            </div>
+         </section>
+         <section id="section-6"></section>
+         <section
+            id="section-7"
+            class="h-[790px] flex flex-col items-center justify-center font-comforta"
+         >
+            <p class="text-center text-3xl font-bold mb-10">
+               Trusted by creators
+            </p>
+            <div class="flex [&>img]:h-[500px]">
+               <img src="/assets/images/iPhone 14 pro.jpg" alt="" />
+               <img src="/assets/images/Frame 185.jpg" alt="" />
+               <img src="/assets/images/mockup 0.png" alt="" />
+               <img src="/assets/images/iPhone 14 pro (1).jpg" alt="" />
+            </div>
+         </section>
+         <section
+            id="section-8"
+            class="h-[790px] flex flex-col items-center justify-center font-comforta bg-[#250B22] text-white"
+         >
+            <p class="text-2xl font-bold mb-5">Frequently asked questions</p>
+            <p class="mb-10">
+               Can’t find what you are looking for? Get in touch
+            </p>
+            <div class="faq">
+               <div class="faq_container">
+                  <button class="faq__question">
+                     Do I need a website to use Simpl?
+                  </button>
+                  <div class="faq__panel">
+                     <p class="faq__answer">No</p>
+                  </div>
+               </div>
+               <div class="faq_container">
+                  <button class="faq__question">
+                     What makes Simpl better than the other options out there?
+                  </button>
+                  <div class="faq__panel">
+                     <p class="faq__answer">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ratione sint, hic consequuntur consectetur, corporis
+                        enim ipsum quasi recusandae vel nobis, exercitationem
+                        aspernatur autem vero ad soluta eius ipsam praesentium
+                        aliquam!
+                     </p>
+                  </div>
+               </div>
+               <div class="faq_container">
+                  <button class="faq__question">
+                     Can you get paid and sell things from Simpl?
+                  </button>
+                  <div class="faq__panel">
+                     <p class="faq__answer">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ratione sint, hic consequuntur consectetur, corporis
+                        enim ipsum quasi recusandae vel nobis, exercitationem
+                        aspernatur autem vero ad soluta eius ipsam praesentium
+                        aliquam!
+                     </p>
+                  </div>
+               </div>
+               <div class="faq_container">
+                  <button class="faq__question">
+                     What mativates creators to use Simpl?
+                  </button>
+                  <div class="faq__panel">
+                     <p class="faq__answer">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ratione sint, hic consequuntur consectetur, corporis
+                        enim ipsum quasi recusandae vel nobis, exercitationem
+                        aspernatur autem vero ad soluta eius ipsam praesentium
+                        aliquam!
+                     </p>
+                  </div>
+               </div>
+               <div class="faq_container">
+                  <button class="faq__question">
+                     What is the best place to use your Simpl link?
+                  </button>
+                  <div class="faq__panel">
+                     <p class="faq__answer">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ratione sint, hic consequuntur consectetur, corporis
+                        enim ipsum quasi recusandae vel nobis, exercitationem
+                        aspernatur autem vero ad soluta eius ipsam praesentium
+                        aliquam!
+                     </p>
+                  </div>
+               </div>
+               <div class="faq_container">
+                  <button class="faq__question">
+                     Is there an option to sign up for a free account?
+                  </button>
+                  <div class="faq__panel">
+                     <p class="faq__answer">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ratione sint, hic consequuntur consectetur, corporis
+                        enim ipsum quasi recusandae vel nobis, exercitationem
+                        aspernatur autem vero ad soluta eius ipsam praesentium
+                        aliquam!
+                     </p>
+                  </div>
+               </div>
+               <div class="faq_container">
+                  <button class="faq__question">
+                     What is a link in bio tool?
+                  </button>
+                  <div class="faq__panel">
+                     <p class="faq__answer">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ratione sint, hic consequuntur consectetur, corporis
+                        enim ipsum quasi recusandae vel nobis, exercitationem
+                        aspernatur autem vero ad soluta eius ipsam praesentium
+                        aliquam!
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </section>
       </main>
       <footer class="h-[400px] bg-[#250B22]">
          <div
@@ -253,4 +405,14 @@
          </div>
       </footer>
    </body>
+   <script>
+      let questions = document.querySelectorAll(".faq__question")
+      questions.forEach((question) => {
+         question.addEventListener("click", function () {
+            question.classList.toggle("faq__question_active")
+            const nextElement = question.nextElementSibling
+            nextElement.classList.toggle("faq__panel_active")
+         })
+      })
+   </script>
 </html>
