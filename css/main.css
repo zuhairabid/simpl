@@ -29,3 +29,7 @@ header {
    background-repeat: no-repeat;
    background-size: contain;
 }
+
+.section-4-active {
+   color: white;
+}
