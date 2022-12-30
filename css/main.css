@@ -20,7 +20,14 @@ header {
 }
 
 #section-3 {
-   background-image: url("/assets/images/section3.png");
+   /* background-image: url("/assets/images/section3.png"); */
+}
+
+#section3-mockup {
+   background-image: url("/assets/images/shapes.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
 }
 
 #section-3-sub {
@@ -32,6 +39,9 @@ header {
 
 .section-4-active {
    color: white;
+}
+#section-6 {
+   background: linear-gradient(96.96deg, #7e74f1 0%, #db71ce 100%);
 }
 
 .faq {
