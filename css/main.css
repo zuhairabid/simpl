@@ -5,6 +5,9 @@
    margin: 0;
    box-sizing: border-box;
 }
+/* div {
+   overflow: hidden;
+} */
 
 header {
    background: linear-gradient(
@@ -14,9 +17,13 @@ header {
       #1d0618 100%
    );
 }
-
+.container {
+   width: 100%;
+   padding: 0px 20px;
+}
 #section-2 {
    background-image: url("/assets/images/section2.png");
+   background-size: cover;
 }
 
 #section-3 {
