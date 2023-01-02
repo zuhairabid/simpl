@@ -77,20 +77,20 @@ header {
    transition: all 0.2s ease;
 }
 
-.faq__question:after {
-   content: "\02795";
+/* .faq__question:after {
+   content: "+";
    position: absolute;
    left: 10px;
    font-size: 14px;
-}
+} */
 
-.faq__question_active:after {
-   content: "\2796";
+/* .faq__question_active:after {
+   content: "-";
    color: white;
    position: absolute;
    left: 10px;
    font-size: 14px;
-}
+} */
 
 .faq__subtitle {
    font-size: 18px;
@@ -125,4 +125,8 @@ header {
    box-shadow: 0px 0px 4px #9e479278;
    border: 0px;
    cursor: pointer;
+}
+
+button.faq__question::after {
+   color: #db71ce;
 }
